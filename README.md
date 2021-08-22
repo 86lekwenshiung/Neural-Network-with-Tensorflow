@@ -1,4 +1,9 @@
-Tensorflow Developer Certification Learning Journey
+# Tensorflow Developer Certification Learning Journey
+
+#### Sources and Credits
+___
+1. Zero to Mastery Deep Learning with TensorFlow course
+2. https://github.com/mrdbourke/tensorflow-deep-learning
 
 ## Content Table
 <a name = 'main_table'></a>
@@ -24,6 +29,7 @@ Tensorflow Developer Certification Learning Journey
 | Optimizer | [SGD](https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/SGD) (stochastic gradient descent), [Adam](https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/Adam) |
 
 ***Table 1:*** *Typical architecture of a regression network.* ***Source:*** *Adapted from page 293 of [Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow Book by Aurélien Géron](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)*
+___
 
 <a name = 'tf_classification'></a>
 ### 2.0 Tensorflow Classification Basic Architecture
@@ -41,6 +47,7 @@ Tensorflow Developer Certification Learning Journey
 | Optimizer | [SGD](https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/SGD) (stochastic gradient descent), [Adam](https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/Adam) | Same as binary classification |
 
 ***Table 1:*** *Typical architecture of a classification network.* ***Source:*** *Adapted from page 295 of [Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow Book by Aurélien Géron](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)*
+___
 
 
 <a name = 'tf_cnn'></a>
@@ -64,11 +71,4 @@ Tensorflow Developer Certification Learning Journey
 |Kernel Size(filter size)| Shape of the filter over the output| 3,5,7, lower value = smaller features. Higher value = larger features|
 |Padding|Pad the target sensor with 0s at the border(if 'same') to preserve input shape. Or leaves in the target sensor(if 'valid') , lowering output shape|'same or 'valid'|
 |Strides| No. of steps a filter takes across an image at a time(if stride = 1 , a filter moves across an image 1 pixel at a time| 1(default) ,2|
-
-## Sources and Credits
 ___
-1. Zero to Mastery Deep Learning with TensorFlow course
-2. https://github.com/mrdbourke/tensorflow-deep-learning
-
-
-
