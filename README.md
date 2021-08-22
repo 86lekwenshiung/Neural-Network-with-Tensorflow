@@ -13,8 +13,8 @@ ___
 |---|---|---|---|
 | 01 | [TF Regression](https://github.com/86lekwenshiung/Neural-Network-with-Tensorflow/blob/main/01_Neural_Network_Regression_With_Tensorflow.ipynb) | [Typical Acrhitecture for Regression](#tf_regression) | - |
 | 02 | [TF Classification](https://github.com/86lekwenshiung/Neural-Network-with-Tensorflow/blob/main/02_Neural_Network_Classification_With_Tensorflow.ipynb) | [Typical Acrhitecture for Classification](#tf_classification) | - |
-| 03 | [TF CNN](https://github.com/86lekwenshiung/Neural-Network-with-Tensorflow/blob/main/04_Transfer Learning with Tensorflow Part 1..ipynb) | [Typical Acrhitecture for CNN](#tf_cnn) | 10_food_classes_all_data |
-| 04 | [TF Transfer Learning : Feature Extraction](https://github.com/86lekwenshiung/Neural-Network-with-Tensorflow/blob/main/03_Convolutional_Neural_Network_(CNN)_With_Tensorflow_.ipynb) | [Transfer Learning Feature Extraction](#tf_transfer_learning) |  |
+| 03 | [TF CNN](https://github.com/86lekwenshiung/Neural-Network-with-Tensorflow/blob/main/03_Convolutional_Neural_Network_(CNN)_With_Tensorflow_.ipynb) | [Typical Acrhitecture for CNN](#tf_cnn) | 10_food_classes_all_data |
+| 04 | [TF Transfer Learning : Feature Extraction](https://github.com/86lekwenshiung/Neural-Network-with-Tensorflow/blob/main/04_Transfer_Learning_with_Tensorflow_Part_1..ipynb) | [Transfer Learning Feature Extraction](#tf_transfer_learning) |  |
 
 <a name = 'tf_regression'></a>
 ### 1.0 Tensorflow Regression Basic Architecture
