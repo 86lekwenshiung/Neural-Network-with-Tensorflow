@@ -4,6 +4,8 @@
 ___
 1. Zero to Mastery Deep Learning with TensorFlow course
 2. https://github.com/mrdbourke/tensorflow-deep-learning
+3. [CNN Explainer](https://poloclub.github.io/cnn-explainer/)
+4. [Neural Network Playground](https://playground.tensorflow.org/)
 
 ## Content Table
 <a name = 'main_table'></a>
