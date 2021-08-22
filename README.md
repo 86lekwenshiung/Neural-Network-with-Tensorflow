@@ -13,7 +13,8 @@ ___
 |---|---|---|---|
 | 01 | [TF Regression](https://github.com/86lekwenshiung/Neural-Network-with-Tensorflow/blob/main/01_Neural_Network_Regression_With_Tensorflow.ipynb) | [Typical Acrhitecture for Regression](#tf_regression) | - |
 | 02 | [TF Classification](https://github.com/86lekwenshiung/Neural-Network-with-Tensorflow/blob/main/02_Neural_Network_Classification_With_Tensorflow.ipynb) | [Typical Acrhitecture for Classification](#tf_classification) | - |
-| 03 | [TF CNN](https://github.com/86lekwenshiung/Neural-Network-with-Tensorflow/blob/main/03_Convolutional_Neural_Network_(CNN)_With_Tensorflow_.ipynb) | [Typical Acrhitecture for CNN](#tf_cnn) | 10_food_classes_all_data |
+| 03 | [TF CNN](https://github.com/86lekwenshiung/Neural-Network-with-Tensorflow/blob/main/04_Transfer Learning with Tensorflow Part 1..ipynb) | [Typical Acrhitecture for CNN](#tf_cnn) | 10_food_classes_all_data |
+| 04 | [TF Transfer Learning : Feature Extraction](https://github.com/86lekwenshiung/Neural-Network-with-Tensorflow/blob/main/03_Convolutional_Neural_Network_(CNN)_With_Tensorflow_.ipynb) | [Transfer Learning Feature Extraction](#tf_transfer_learning) |  |
 
 <a name = 'tf_regression'></a>
 ### 1.0 Tensorflow Regression Basic Architecture
@@ -74,3 +75,27 @@ ___
 |Padding|Pad the target sensor with 0s at the border(if 'same') to preserve input shape. Or leaves in the target sensor(if 'valid') , lowering output shape|'same or 'valid'|
 |Strides| No. of steps a filter takes across an image at a time(if stride = 1 , a filter moves across an image 1 pixel at a time| 1(default) ,2|
 ___
+
+<a name = 'tf_transfer_learning'></a>
+### 4.0 Tensorflow Feature Extraction Overview
+[(back to top)](#main_table)
+
+1. **Transfer learning** is when you take a pretrained model as it is and apply it to your task without any changes. 
+ 
+    * For example, many computer vision models are pretrained on the ImageNet dataset which contains 1000 different classes of images. This means passing a single image to this model will produce 1000 different prediction probability values (1 for each class). 
+    * This is helpful if you have 1000 classes of image you'd like to classify and they're all the same as the ImageNet classes, however, it's not helpful if you want to classify only a small subset of classes (such as 10 different kinds of food). Model's with `"/classification"` in their name on TensorFlow Hub provide this kind of functionality.
+
+2. **Feature extraction transfer learning** is when you take the underlying patterns (also called weights) a pretrained model has learned and adjust its outputs to be more suited to your problem. 
+
+    * For example, say the pretrained model you were using had 236 different layers (EfficientNetB0 has 236 layers), but the top layer outputs 1000 classes because it was pretrained on ImageNet. To adjust this to your own problem, you might remove the original activation layer and replace it with your own but with the right number of output classes. 
+    * The important part here is that **only the top few layers become trainable, the rest remain frozen**. This way all the underlying patterns remain in the rest of the layers and you can utilise them for your own problem. This kind of transfer learning is very helpful when your data is similar to the data a model has been pretrained on.
+
+3. **Fine-tuning transfer learning** is when you take the underlying patterns (also called weights) of a pretrained model and adjust (fine-tune) them to your own problem. 
+
+    * This usually means training **some, many or all** of the layers in the pretrained model. This is useful when you've got a large dataset (e.g. 100+ images per class) where your data is slightly different to the data the original model was trained on. 
+    * A common workflow is to "freeze" all of the learned patterns in the bottom layers of a pretrained model so they're untrainable. And then train the top 2-3 layers of so the pretrained model can adjust its outputs to your custom data (**feature extraction**). 
+    * After you've trained the top 2-3 layers, you can then gradually "unfreeze" more and more layers and run the training process on your own data to further **fine-tune** the pretrained model.
+
+<p align = 'center'>
+  <img src = 'images/04-different-kinds-of-transfer-learning.png'>
+ </p>
