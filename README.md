@@ -18,7 +18,7 @@ ___
 | 04 | [TF Transfer Learning : Feature Extraction](https://github.com/86lekwenshiung/Neural-Network-with-Tensorflow/blob/main/04_Transfer_Learning_with_Tensorflow_Part_1..ipynb) | [Transfer Learning Feature Extraction](#tf_transfer_learning) |  |
 | 05 | [TF Transfer Learning : Fine Tuning]() | [Transfer Learning Fine Tuning]() |  |
 | 06 | [TF Transfer Learning : Scaling Up]() | [Transfer Learning Scaling Up]() |  |
-| 07 | [Natural Language Processing](https://github.com/86lekwenshiung/Neural-Network-with-Tensorflow/blob/main/07_Natural_Language_Processing_In_Tensorflow.ipynb.ipynb) | [Natural Language Processing]() |  |
+| 07 | [Natural Language Processing](https://github.com/86lekwenshiung/Neural-Network-with-Tensorflow/blob/main/07_Natural_Language_Processing_In_Tensorflow.ipynb) | [Natural Language Processing]() |  |
 
 
 <a name = 'tf_regression'></a>
