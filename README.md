@@ -6,6 +6,7 @@ ___
 2. https://github.com/mrdbourke/tensorflow-deep-learning
 3. [CNN Explainer](https://poloclub.github.io/cnn-explainer/)
 4. [Neural Network Playground](https://playground.tensorflow.org/)
+5. [Tensorflow Hub](https://www.tensorflow.org/hub/)
 
 ## Content Table
 <a name = 'main_table'></a>
@@ -15,6 +16,10 @@ ___
 | 02 | [TF Classification](https://github.com/86lekwenshiung/Neural-Network-with-Tensorflow/blob/main/02_Neural_Network_Classification_With_Tensorflow.ipynb) | [Typical Acrhitecture for Classification](#tf_classification) | - |
 | 03 | [TF CNN](https://github.com/86lekwenshiung/Neural-Network-with-Tensorflow/blob/main/03_Convolutional_Neural_Network_(CNN)_With_Tensorflow_.ipynb) | [Typical Acrhitecture for CNN](#tf_cnn) | 10_food_classes_all_data |
 | 04 | [TF Transfer Learning : Feature Extraction](https://github.com/86lekwenshiung/Neural-Network-with-Tensorflow/blob/main/04_Transfer_Learning_with_Tensorflow_Part_1..ipynb) | [Transfer Learning Feature Extraction](#tf_transfer_learning) |  |
+| 05 | [TF Transfer Learning : Fine Tuning]() | [Transfer Learning Fine Tuning]() |  |
+| 06 | [TF Transfer Learning : Scaling Up]() | [Transfer Learning Scaling Up]() |  |
+| 07 | [Natural Language Processing](https://github.com/86lekwenshiung/Neural-Network-with-Tensorflow/blob/main/07_Natural_Language_Processing.ipynb.ipynb) | [Natural Language Processing]() |  |
+
 
 <a name = 'tf_regression'></a>
 ### 1.0 Tensorflow Regression Basic Architecture
