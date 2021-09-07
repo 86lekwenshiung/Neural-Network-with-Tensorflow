@@ -16,7 +16,7 @@ ___
 | 02 | [TF Classification](https://github.com/86lekwenshiung/Neural-Network-with-Tensorflow/blob/main/02_Neural_Network_Classification_With_Tensorflow.ipynb) | [Typical Acrhitecture for Classification](#tf_classification) | - |
 | 03 | [TF CNN](https://github.com/86lekwenshiung/Neural-Network-with-Tensorflow/blob/main/03_Convolutional_Neural_Network_(CNN)_With_Tensorflow_.ipynb) | [Typical Acrhitecture for CNN](#tf_cnn) | 10_food_classes_all_data |
 | 04 | [TF Transfer Learning : Feature Extraction](https://github.com/86lekwenshiung/Neural-Network-with-Tensorflow/blob/main/04_Transfer_Learning_with_Tensorflow_Part_1..ipynb) | [Transfer Learning Feature Extraction](#tf_transfer_learning) |  |
-| 05 | [TF Transfer Learning : Fine Tuning]() | [Transfer Learning Fine Tuning]() |  |
+| 05 | [TF Transfer Learning : Fine Tuning](https://github.com/86lekwenshiung/Neural-Network-with-Tensorflow/blob/main/05_Transfer_Learning_with_Tensorflow_Part_2.ipynb) | [Transfer Learning Fine Tuning]() | 10_food_classes_all_data |
 | 06 | [TF Transfer Learning : Scaling Up]() | [Transfer Learning Scaling Up]() |  |
 | 07 | [Natural Language Processing](https://github.com/86lekwenshiung/Neural-Network-with-Tensorflow/blob/main/07_Natural_Language_Processing_in_Tensorflow.ipynb) | [Natural Language Processing Techniques](#tf_nlp) |  |
 
